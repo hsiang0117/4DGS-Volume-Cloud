@@ -1,4 +1,12 @@
-# 3DGS-Volume-Cloud
+# 4DGS-Volume-Cloud
+
+基于 [3DGS-Volume-Cloud](https://github.com/hsiang0117/3DGS-Volume-Cloud) 的独立 4D 实施工作区，初始代码基线为 `69fea2c8d5a13d6c0e41ac12ca45c80b71bd3403`。
+
+当前继承原仓库的静态云训练和物理重光照能力，时间维度尚未实现。后续将从已有静态高斯云出发，加入连续运动、形变、生长与消散，并更新随云状态变化的光照传输。
+
+数据集、训练输出、虚拟环境和编译产物继续由 `.gitignore` 排除，不随仓库克隆复制。
+
+以下为继承的 3DGS-Volume-Cloud 技术文档。
 
 用物理参数化的 3D Gaussian Splatting 替代游戏引擎中 ray-marching 体积云的研究项目,目标是**实时渲染 + 动态打光**(任意太阳方向 relighting)。
 
